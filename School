@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstdlib>
+// Computations from 5 stores Problem
+
+int main()
+{
+    double one = 40323.0; //Store 1
+    double two = 62042.5;  //Store 2
+    double three = 22094.0;  //Store 3
+    double four (10132.0);  //Store 4
+    double five (32602.4);  //Store 5
+    
+    std::cout << (one+two+three+four+five) << std::endl;  //Total Revenue Calculation
+    std::cout << (one+two+three+four+five)/5.0 << std::endl;  //Average Revenue
+    std::cout << one/(one+two+three+four+five) << std::endl;  //Percent for Store 1 Calculation
+    std::cout << two/(one+two+three+four+five) << std::endl;  //Percent for Store 2 Calculation
+    std::cout << three/(one+two+three+four+five) << std::endl;  //Percent for Store 3 Calculation
+    std::cout << four/(one+two+three+four+five) << std::endl;  //Percent for Store 4 Calculation
+    std::cout << five/(one+two+three+four+five) << std::endl;  //Percent for Store 5 Calculation
+    
+    return 0; 
+}
